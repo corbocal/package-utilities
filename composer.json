@@ -3,6 +3,7 @@
     "description": "A small collection of PHP tools and other convenience classes",
     "type": "library",
     "license": "GNU GPL v3.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "corbocal",
