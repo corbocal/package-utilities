@@ -40,8 +40,6 @@ class Yaml
             });
         }
 
-        // yaml_parse_file($file, 0, $ndocs, Yaml::PARSE_OBJECT_FOR_MAP);
-
         return $result;
     }
 }

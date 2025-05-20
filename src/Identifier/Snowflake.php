@@ -23,7 +23,7 @@ class Snowflake extends AbstractIdentifier
         return new self(BradieTilleySnowflake::id());
     }
 
-    private static function initializeSnowflake()
+    private static function initializeSnowflake(): void
     {
         $cluster = 1;
         $worker = 1;

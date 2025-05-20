@@ -9,8 +9,8 @@ class PdoWrapper
     public function __construct(
         #[\SensitiveParameter]
         string $dbUrl,
-        string $driverOverride = null,
-        string $charsetOverride = null
+        ?string $driverOverride = null,
+        ?string $charsetOverride = null
     ) {
         $parsedUrl = parse_url($dbUrl);
         if ($parsedUrl === false) {
