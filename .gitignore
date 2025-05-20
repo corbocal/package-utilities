@@ -1,0 +1,5 @@
+.env*
+notes.md
+composer.lock
+/var*
+/vendor*
