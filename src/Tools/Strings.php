@@ -33,7 +33,7 @@ final class Strings
      * @param string $string
      * @return string
      */
-    public static function mb_ucfirst(string $string): string
+    public static function mbUcFirst(string $string): string
     {
         return \mb_strtoupper(\mb_substr($string, 0, 1)) . \mb_substr($string, 1);
     }
@@ -56,7 +56,7 @@ final class Strings
      * @param string $string
      * @return string
      */
-    public static function mb_slugify(string $string)
+    public static function mbSlugify(string $string)
     {
         $string = \str_replace(["\xc2\xa0", " ", "&nbsp;"], "-", $string);
         $transliterator = 'Any-Latin; Latin-ASCII; [^A-Za-z0-9-] remove; lower()';
@@ -66,7 +66,7 @@ final class Strings
     }
 
     /**
-     * removes all non printable characters from a string
+     * Removes all non printable characters from a string
      * @param string $string
      * @return string
      */

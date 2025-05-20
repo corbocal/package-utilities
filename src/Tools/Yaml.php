@@ -23,8 +23,7 @@ class Yaml
     }
 
     /**
-     * parse un fichier YAML et retourne le contenu parsé (tableau)
-     *
+     * Parses a YAML file as an array
      * @param string $file /path/to/file
      * @return array<mixed>
      */

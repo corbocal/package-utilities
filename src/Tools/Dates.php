@@ -84,7 +84,7 @@ final class Dates
         return \round((\abs($timestamp1 - $timestamp2) / self::SECONDS_IN_HOUR), 2);
     }
 
-        /**
+    /**
      * Returns how many hours there are between two timestamps (2 decimal)
      * @param int $timestamp1
      * @param int $timestamp2
@@ -94,5 +94,4 @@ final class Dates
     {
         return \round((\abs($timestamp1 - $timestamp2) / self::SECONDS_IN_MINUTE), 2);
     }
-
 }

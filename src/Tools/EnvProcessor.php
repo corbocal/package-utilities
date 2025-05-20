@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Corbocal\Utilities\Tools;
 
 /**
- * Recovers env variables references from a string
+ * Recovers and resolves env variables references from a string
  */
 final class EnvProcessor
 {

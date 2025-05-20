@@ -66,7 +66,6 @@ final class File
             if ($filenames === []) {
                 $files = $scannedDir;
             } else {
-
                 foreach ($scannedDir as $file) {
                     if (\preg_grep("/$file/", $filenames)) {
                         $files[] = $file;
@@ -95,6 +94,6 @@ final class File
 
         \header('Content-type: "application/zip";');
         \header('Content-disposition: attachment; filename="' . basename($path) . '"');
-        die();
+        exit();
     }
 }
